@@ -49,7 +49,7 @@ $WILDFLY_HOME/standalone/deployments/
 
 ### 4. Acessar aplicação
 ```
-http://127.0.0.1:8080/projetojsf
+http://127.0.0.1:8080/projetojsf/index.xhtml
 ```
 
 ## 💻 Como usar
