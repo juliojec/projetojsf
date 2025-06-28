@@ -29,9 +29,6 @@ public class UsuarioBean implements Serializable {
         this.analiseConcluida = false;
     }
     
-    /**
-     * Método para analisar a frase digitada pelo usuário
-     */
     public void analisarFrase() {
         if (frase == null || frase.trim().isEmpty()) {
             FacesContext.getCurrentInstance().addMessage(null, 
